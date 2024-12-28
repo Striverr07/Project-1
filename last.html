@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winning Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+     <div class="all">    
+     <img class="cup" src="Images\Vector.svg">
+     <img class="star" src="Images\Group 5.svg">
+     <h1 class="hurray">HURRAY!!</h1>
+     <p class="pp">YOU WON THE GAME</p>
+     <a href="index.html"><button class="reset">PLAY AGAIN</button></a>
+     <button class="rule-button" onclick="toggleRuleBox()">RULE</button>
+
+
+     <div class="rule-box" id="ruleBox">
+         
+         <button class="close-button" onclick="closeRuleBox()">X</button>
+         <div class="game-rules">
+             <h2>Game Rules</h2>
+             <ul>
+                 <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                 <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                 <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
+                 <li>If both players lay down the same hand, each player lays down another hand.</li>
+             </ul>
+         </div>
+     </div>
+    </div>
+     
+     <script src="script.js"></script>
+</body>
+</html>
